@@ -5,8 +5,8 @@ import domain.Exercise;
 public class TestResult {
 
     public static void main(String[] args) {
-
-        int R=10;
-        System.out.println("Area of a circle for R="+R+"m is "+Exercise.Calculate(R)+"m"+'\u00B2');
+        int i = 111111;
+        System.out.printf("All divisors of number %d: %s", i, Exercise.Calculate(i));
+        
     }
 }
